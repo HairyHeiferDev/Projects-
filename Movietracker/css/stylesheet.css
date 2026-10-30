@@ -1,5 +1,8 @@
 .title{
     color: black;
+ 
+
+}
     
 }
 
@@ -37,7 +40,7 @@ padding: 0;
 .header-banner{
     display: flex;
     align-items: center;
-    gap: 10px;
+        gap: 10px;
 
 
 }
@@ -47,4 +50,46 @@ padding: 0;
     padding-bottom: 0%;
     font-size: larger;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.description{
+margin-top: 0%;
+padding-top: 0%;
+    text-align: center;
+}
+
+.nav-links{
+    list-style: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Lines up list items horizontally */
+    gap: 100px; /* Spaces out the menu items */
+    background-color: #222; /* Dark background color */
+    justify-content: center;
+    width: 100%;
+    
+}
+
+
+
+.nav-links a {
+    margin-top: 0;
+    padding-top: 0;
+    color: white;
+    text-decoration: none; /* Removes text underline */
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 15px; /* Creates a larger clickable area */
+     /* Ensures full padding area is clickable */
+    transition: background-color 0.2s ease;
+   
+    
+}
+
+
+.nav-links a:hover {
+    background-color: #444; /* Highlights link when mouse hovers over */
+    border-radius: 4px;
+    align-items: center;
 }
