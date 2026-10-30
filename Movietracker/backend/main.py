@@ -10,7 +10,7 @@ def add_movie():
 
 def remove_movie():
 
-    cursor.execute
+    cursor.execute("DELETE FROM movies WHERE")
 
 
 
