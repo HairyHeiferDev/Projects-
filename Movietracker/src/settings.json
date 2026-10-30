@@ -4,8 +4,7 @@
             "previewLimit": 50,
             "driver": "SQLite",
             "database": "${workspaceFolder:Projects-}/Movietracker/DB/movies.db",
-            "name": "D!"
+            "name": "movies DB"
         }
-    ],
-    "sqltools.useNodeRuntime": true
+    ]
 }
