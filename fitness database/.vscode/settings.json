@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "info.db",
+            "database": "${workspaceFolder:Projects-}/fitness database/info.db"
+        }
+    ]
+}

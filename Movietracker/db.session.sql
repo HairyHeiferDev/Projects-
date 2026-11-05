@@ -1,0 +1,1 @@
+CREATE TABLE movies(ID AUTOINCREMENT, NAME text , date DATE , GENRE text, WATCHED boolean, rating INT, DESCRIPTION text)
